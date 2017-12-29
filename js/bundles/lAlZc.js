@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([13,17,18,19],[
+webpackJsonppageComponent([9,17,18,19],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28360,12 +28360,16 @@ exports.default = parseFromAnchor;
 /* 217 */,
 /* 218 */,
 /* 219 */,
-/* 220 */
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AiwYr", function() { return AiwYr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "lAlZc", function() { return lAlZc; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -28377,15 +28381,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from etiam.soy.
+// This file was automatically generated from index.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace AiwYr.
+ * @fileoverview Templates in namespace lAlZc.
  * @public
  */
 
-goog.module('AiwYr.incrementaldom');
+goog.module('lAlZc.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -28419,10 +28423,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param319 = function() {
+  var param387 = function() {
     ie_open('h6');
-      var dyn26 = opt_data.page.description;
-      if (typeof dyn26 == 'function') dyn26(); else if (dyn26 != null) itext(dyn26);
+      var dyn30 = opt_data.page.description;
+      if (typeof dyn30 == 'function') dyn30(); else if (dyn30 != null) itext(dyn30);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -28430,15 +28434,15 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         itext('Lorem ipsum dolor sit amet');
       ie_close('h2');
       ie_open('p');
-        itext('Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque varius mattis mollis. Praesent rutrum tempor libero sit amet blandit. Integer ante nisl, rutrum ut volutpat ut, rutrum id tortor. Duis placerat ut ipsum id aliquam. Nunc venenatis sem ac urna viverra, eu euismod sapien porttitor.');
-      ie_close('p');
-      $templateAlias2({code: 'body {\n    overflow: hidden;\n}', mode: 'css'}, null, opt_ijData);
-      ie_open('p');
-        itext('Nulla a suscipit nibh. Duis tincidunt elit tellus, ut volutpat lectus pharetra at. Nulla quis nisi ante. Maecenas vulputate convallis lorem. Vestibulum at ex id sapien faucibus vehicula. Sed porta dui in velit semper blandit. Ut in commodo magna. Morbi luctus enim et lectus luctus ullamcorper. Proin tellus erat, convallis vitae metus vitae, lacinia consectetur turpis.');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      $templateAlias2({code: 'alert(\'Hello World\');', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
@@ -28488,11 +28492,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param319}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param387}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'AiwYr.render';
+  $render.soyTemplateName = 'lAlZc.render';
 }
 
 exports.render.params = ["page","site"];
@@ -28502,18 +28506,14 @@ return exports;
 
 });
 
-class AiwYr extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(AiwYr, templates);
+class lAlZc extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(lAlZc, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
 /* 225 */,
 /* 226 */,
 /* 227 */,
@@ -28558,7 +28558,11 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(AiwYr, templates);
 /* 266 */,
 /* 267 */,
 /* 268 */,
-/* 269 */
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28594,9 +28598,9 @@ __webpack_require__(132);
 
 __webpack_require__(133);
 
-var _etiamSoy = __webpack_require__(220);
+var _indexSoy = __webpack_require__(224);
 
-var _etiamSoy2 = _interopRequireDefault(_etiamSoy);
+var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28606,23 +28610,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var AiwYr = function (_Component) {
-  _inherits(AiwYr, _Component);
+var lAlZc = function (_Component) {
+  _inherits(lAlZc, _Component);
 
-  function AiwYr() {
-    _classCallCheck(this, AiwYr);
+  function lAlZc() {
+    _classCallCheck(this, lAlZc);
 
-    return _possibleConstructorReturn(this, (AiwYr.__proto__ || Object.getPrototypeOf(AiwYr)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (lAlZc.__proto__ || Object.getPrototypeOf(lAlZc)).apply(this, arguments));
   }
 
-  return AiwYr;
+  return lAlZc;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(AiwYr, _etiamSoy2.default);
+_metalSoy2.default.register(lAlZc, _indexSoy2.default);
 
-exports.default = AiwYr;
+exports.default = lAlZc;
 
 /***/ })
-],[269]);
+],[273]);

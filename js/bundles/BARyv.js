@@ -28367,7 +28367,7 @@ exports.default = parseFromAnchor;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "qMayB", function() { return qMayB; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BARyv", function() { return BARyv; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -28383,11 +28383,11 @@ goog.loadModule(function(exports) {
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace qMayB.
+ * @fileoverview Templates in namespace BARyv.
  * @public
  */
 
-goog.module('qMayB.incrementaldom');
+goog.module('BARyv.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -28491,7 +28491,7 @@ function $render(opt_data, opt_ignored, opt_ijData) {
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'qMayB.render';
+  $render.soyTemplateName = 'BARyv.render';
 }
 
 exports.render.params = ["page","site"];
@@ -28501,8 +28501,8 @@ return exports;
 
 });
 
-class qMayB extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(qMayB, templates);
+class BARyv extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(BARyv, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
@@ -28555,10 +28555,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(qMayB, templates);
 /* 266 */,
 /* 267 */,
 /* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */
+/* 269 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28606,23 +28603,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var qMayB = function (_Component) {
-  _inherits(qMayB, _Component);
+var BARyv = function (_Component) {
+  _inherits(BARyv, _Component);
 
-  function qMayB() {
-    _classCallCheck(this, qMayB);
+  function BARyv() {
+    _classCallCheck(this, BARyv);
 
-    return _possibleConstructorReturn(this, (qMayB.__proto__ || Object.getPrototypeOf(qMayB)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (BARyv.__proto__ || Object.getPrototypeOf(BARyv)).apply(this, arguments));
   }
 
-  return qMayB;
+  return BARyv;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(qMayB, _loremSoy2.default);
+_metalSoy2.default.register(BARyv, _loremSoy2.default);
 
-exports.default = qMayB;
+exports.default = BARyv;
 
 /***/ })
-],[272]);
+],[269]);
